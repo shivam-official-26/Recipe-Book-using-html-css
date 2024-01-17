@@ -1,74 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Playfair Display';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display";
 }
 body {
-    overflow-x: hidden;
-  }
-
-.nav-bar{
-    height: 70px;
-    width: 100vw;
-    background: rgb(10,4,112);
-background: linear-gradient(90deg, rgba(10,4,112,1) 0%, rgba(44,44,213,1) 45%, rgba(63,103,211,1) 65%, rgba(101,145,201,1) 95%);
-    color: white;
-    font-family: 'Playfair Display';
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30%;
+  overflow-x: hidden;
 }
 
-.nav-list{
-    list-style-type: none;
-    font-size: 23px;
-    display: flex;
-    gap: 40px;
-    margin: 50px;
+.nav-bar {
+  height: 70px;
+  width: 100vw;
+  background: rgb(10, 4, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 4, 112, 1) 0%,
+    rgba(44, 44, 213, 1) 45%,
+    rgba(63, 103, 211, 1) 65%,
+    rgba(101, 145, 201, 1) 95%
+  );
+  color: white;
+  font-family: "Playfair Display";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
 }
-li a{
-    text-decoration: none;
-    color: white;
-}
-main{
-    background-color:rgb(238, 213, 255);
-}
-.box{
-    width: 70vw;
-    margin: auto;
-    box-shadow: 1px 3px 15px 0px #000000;
-    background-color: aliceblue;
 
+.nav-list {
+  list-style-type: none;
+  font-size: 23px;
+  display: flex;
+  gap: 40px;
+  margin: 50px;
 }
-.card{
-    padding: 40px;
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
+li a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  background-color: rgb(238, 213, 255);
+}
+.box {
+  width: 70vw;
+  margin: auto;
+  box-shadow: 1px 3px 15px 0px #000000;
+  background-color: aliceblue;
+}
+.card {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
 }
 
 img {
-    height: 400px;
-    width: 300px;
-    border-radius: 8%;
-    box-shadow: 1px 3px 15px 0px #000000;
+  height: 400px;
+  width: 300px;
+  border-radius: 8%;
+  box-shadow: 1px 3px 15px 0px #000000;
 }
-.Ingredient-list{
-    list-style-type: disc;
+.Ingredient-list {
+  list-style-type: disc;
 }
-.content h2{
-    width: 35vw;
-    font-size: 28px;
-    font-weight:bolder;
+.content h2 {
+  width: 35vw;
+  font-size: 28px;
+  font-weight: bolder;
 }
-.content h3{
-    font-weight: 800;
+.content h3 {
+  font-weight: 800;
 }
-.content p{
-    color: black;
-    font-weight: 600;
-    font-size: 12px;
+.content p {
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
 }
